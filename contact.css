@@ -1,0 +1,296 @@
+{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+html,body{
+   height: 100%
+   width: 100%
+}
+
+#header {
+    height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.texts{
+    background-color: whitesmoke;
+    color:black;
+    font-weight: lighter;
+    margin: 10px;
+    font-family: 'Gill Sans';
+    margin: 20px;
+    cursor: pointer;
+
+}
+}
+.texts a:hover {
+  color: #7f7dfb;
+  border-radius: 50%;
+}
+.texts a{
+
+  color: #222;
+  text-decoration: none;
+
+}
+#logo{
+display: flex;
+height: 70%;
+padding-right: 65%;
+margin: 10px;
+
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+   
+   
+}
+
+.Login{
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+     cursor: pointer;
+    
+}
+.Login:hover{
+    background-color: rgb(191, 191, 245);
+}
+
+.texts:hover{
+    color: rgb(7, 7, 105);
+}
+
+.booknook{
+    position: absolute;
+    padding-left: 4%;
+}
+.fakeheader{
+     height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 14;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f3ee;
+    margin: 0;
+    padding: 60px 0;
+}
+
+.contact-container {
+    background: #fff;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 30px 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(190, 186, 183, 0.13);
+}
+
+h2 {
+    margin-bottom: 28px;
+    color: #203040;
+    font-size: 1.28em;
+}
+
+.info-card {
+    display: flex;
+    align-items: flex-start;
+    background: #faf8f7;
+    border: 1px solid #e2dedb;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 15px;
+    gap: 16px;
+}
+
+.icon-bg {
+    background: #ebe6e1;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.info-title {
+    font-weight: bold;
+    color: #183456;
+    margin-bottom: 3px;
+}
+
+.info-desc {
+    color: #757065;
+    font-size: 0.97em;
+}
+body {
+  background: #faf7f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background: white;
+  max-width: 540px;
+  margin: 40px auto;
+  padding: 28px 20px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(190, 186, 183, 0.11);
+}
+
+.title {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #232c3d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.row {
+  display: flex;
+  gap: 18px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input-title {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #3d4a5a;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid #e7e5ef;
+  border-radius: 7px;
+  background: #f5f3ee;
+  font-size: 1em;
+  margin-bottom: 4px;
+}
+
+textarea {
+  min-height: 72px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background: #faab60;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 11px 0;
+  width: 100%;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.18s;
+}
+
+button[type="submit"]:hover {
+  background: #e89440;
+}
+
+.Footer{
+   display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #284762;   /* deep blue background similar to the screenshot */
+    padding: 35px 80px;
+}
+
+.about {
+ color: white;
+}
+ .links{
+
+  gap: 32px;
+  padding: 40px;
+  color: white;
+
+ }
+ .icon1{
+padding: 10px;
+
+
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  display: flex;
+
+}
+.class2{
+    padding: 0px;
+background-color: #f7f4f1;
+}
+ 
+.icon1 {
+    display: flex;
+    gap: 30px;
+    margin-top: 9px;
+
+}
+.icon1 div {
+    width: 46px;
+    height: 46px;
+    background: rgba(255,255,255,0.11);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #f5f7fa;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.icon1 div:hover {
+
+    background: rgba(255, 255, 255, 0.216);
+contact-container
+
+}
+.container-side-by-side {
+  display: flex;
+  justify-content: center; /* optional, to center if you want */
+  gap: 20px; /* space between the two boxes */
+  max-width: 900px; /* or any max width */
+  margin: 40px auto; /* center horizontally and add top margin */
+}
+
+.box {
+  flex: 1; /* take equal space */
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(190, 186, 183, 0.13);
+}
